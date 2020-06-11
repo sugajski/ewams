@@ -20,6 +20,8 @@
 		5C7A510FE07FC17227A61B85 /* libPods-ewams-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C404386F8B3427A086A4AF76 /* libPods-ewams-tvOSTests.a */; };
 		B85BC55841095C0F24B29556 /* libPods-ewams-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB40422F2361FDB4E6F64BC /* libPods-ewams-tvOS.a */; };
 		D978BE03395E13A8F4DFB306 /* libPods-ewams-ewamsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E234814B238B6C07FD48FC8E /* libPods-ewams-ewamsTests.a */; };
+		ED6B00ED2492838E00EFB875 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED6B00EB2492836F00EFB875 /* OpenSans-Bold.ttf */; };
+		ED6B00EE2492838E00EFB875 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED6B00EC2492836F00EFB875 /* OpenSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		E234814B238B6C07FD48FC8E /* libPods-ewams-ewamsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ewams-ewamsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		ED6B00EB2492836F00EFB875 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		ED6B00EC2492836F00EFB875 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		FB4221D09B5E1FB461B0D767 /* Pods-ewams-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ewams-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ewams-tvOSTests/Pods-ewams-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +163,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				ED6B00EA2492833F00EFB875 /* Resources */,
 				13B07FAE1A68108700A75B9A /* ewams */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ewamsTests */,
@@ -194,8 +199,16 @@
 				C47306B6A3EB3EA4D594EE82 /* Pods-ewams-tvOSTests.debug.xcconfig */,
 				FB4221D09B5E1FB461B0D767 /* Pods-ewams-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED6B00EA2492833F00EFB875 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED6B00EB2492836F00EFB875 /* OpenSans-Bold.ttf */,
+				ED6B00EC2492836F00EFB875 /* OpenSans-Regular.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +353,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6B00ED2492838E00EFB875 /* OpenSans-Bold.ttf in Resources */,
+				ED6B00EE2492838E00EFB875 /* OpenSans-Regular.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);

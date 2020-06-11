@@ -1,0 +1,14 @@
+{
+  "dashboard": {
+    "city": "Miasto",
+    "recentlySearched": "Ostatnio wyszukiwane:"
+  },
+  "errors": {
+    "error": "Błąd",
+    "noCurrentForecastResults": "Nie udało się znaleźć prognozy dla podanej miejscowości.",
+    "lettersOnly": "Nazwa miejscowości powinna zawierać tylko litery.",
+    "emptyValue": "Podaj nazwę miejscowości.",
+    "readingSearchHistoryFailed": "Wczytywanie historii wyszukiwanych wyników nie powiodło się.",
+    "savingSearchHistoryFailed": "Zapisanie wyniku nie powiodło się."
+  }
+}
