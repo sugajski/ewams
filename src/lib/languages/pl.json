@@ -3,8 +3,27 @@
     "city": "Miasto",
     "recentlySearched": "Ostatnio wyszukiwane:"
   },
+  "weatherDetails": {
+    "now": "teraz",
+    "checkHourlyForecast": "Sprawdź pogodę na 24h",
+    "noDescription": "Nie posiadamy opisu pogody dla miejscowości"
+  },
+  "weatherTable": {
+    "dashDescription": " oznacza brak informacji na ten temat",
+    "sunrise": "Wschód słońca",
+    "sunset": "Zachód słońca",
+    "temperature": "Temperatura",
+    "feelsLike": "Temperatura odczuwalna",
+    "minTemp": "Temperatura minimalna",
+    "maxTemp": "Temperatura maksymalna",
+    "pressure": "Ciśnienie powietrza",
+    "humidity": "Wilgotność powietrza",
+    "visibility": "Widoczność",
+    "windSpeed": "Prędkość wiatru"
+  },
   "errors": {
     "error": "Błąd",
+    "noHourlyForecastResults": "Nie udało się pobrać prognozy godzinowej na cały dzień.",
     "noCurrentForecastResults": "Nie udało się znaleźć prognozy dla podanej miejscowości.",
     "lettersOnly": "Nazwa miejscowości powinna zawierać tylko litery.",
     "emptyValue": "Podaj nazwę miejscowości.",

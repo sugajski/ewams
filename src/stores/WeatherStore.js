@@ -13,9 +13,11 @@ const HISTORY_KEY = 'dashboard.history';
 class WeatherStore {
   @observable loading = false;
   @observable cityName = '';
+  @observable weatherDetails = null;
   @observable searchHistory = [];
   @observable error = '';
   @observable routerHistory = null;
+  @observable hourlyTemperatures = [];
   cityTextInputRef = null;
 
   initWeatherStore = flow(function* initWeatherStore(
@@ -223,6 +225,44 @@ class WeatherStore {
   @action
   navigateToWeatherDetails = () => {
     this.loading = false;
+    this.routerHistory.push('/weatherDetails');
+  };
+
+  checkHourlyForecast = flow(function* checkHourlyForecast(
+    latitude,
+    longitude,
+  ) {
+    try {
+      this.loading = true;
+      const hourlyForecastResponse = yield RestClient.checkHourlyForecast(
+        latitude,
+        longitude,
+      );
+      this.handleCheckHourlyForecastResponse(hourlyForecastResponse.data);
+    } catch (error) {
+      this.handleCheckHourlyForecastError();
+    }
+  }).bind(this);
+
+  @action
+  handleCheckHourlyForecastResponse = (response) => {
+    const hourlyForecast = response.hourly.slice(1, 25).map((forecast) => ({
+      hour: moment.unix(forecast.dt).format('HH'),
+      temperature: `${Math.round(forecast.temp)} \u2103`,
+    }));
+    this.hourlyTemperatures = hourlyForecast;
+    this.loading = false;
+  };
+
+  @action
+  handleCheckHourlyForecastError = () => {
+    this.loading = false;
+    ErrorHandler.noHourlyForecastResults();
+  };
+
+  @action
+  clearHourlyForecast = () => {
+    this.hourlyTemperatures = [];
   };
 }
 

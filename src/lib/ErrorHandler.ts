@@ -8,6 +8,9 @@ const ErrorHandler = {
   noCurrentForecastResults() {
     showError('errors.noCurrentForecastResults');
   },
+  noHourlyForecastResults() {
+    showError('errors.noCurrentForecastResults');
+  },
   readingSearchHistoryFailed() {
     showError('errors.readingSearchHistoryFailed');
   },

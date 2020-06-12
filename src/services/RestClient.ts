@@ -15,6 +15,11 @@ const RestClient = {
       `weather?q=${record}&lang=pl&units=metric&appid=${clientSecret}`,
     );
   },
+  checkHourlyForecast(lat: string, lon: string) {
+    return instance.get(
+      `onecall?lat=${lat}&lon=${lon}&exclude=current,weather,daily&units=metric&appid=${clientSecret}`,
+    );
+  },
 };
 
 export default RestClient;

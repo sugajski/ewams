@@ -4,7 +4,7 @@ import {Provider} from 'mobx-react';
 import {Provider as PaperProvider} from 'react-native-paper';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
-import {Dashboard} from './routes';
+import {Dashboard, WeatherDetails} from './routes';
 import {WeatherStore} from './stores';
 
 const weatherStore = new WeatherStore();
@@ -17,6 +17,7 @@ export default () => {
           <NativeRouter>
             <Switch>
               <Route exact path="/" component={Dashboard} />
+              <Route exact path="/weatherDetails" component={WeatherDetails} />
             </Switch>
           </NativeRouter>
         </PaperProvider>

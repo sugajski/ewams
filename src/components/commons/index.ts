@@ -1,5 +1,7 @@
+import Button from './Button';
 import DismissKeyboardWrapper from './DismissKeyboardWrapper';
 import Loading from './Loading/Loading';
+import NavBar from './NavBar';
 import Separator from './Separator';
 
-export {DismissKeyboardWrapper, Loading, Separator};
+export {Button, DismissKeyboardWrapper, Loading, NavBar, Separator};

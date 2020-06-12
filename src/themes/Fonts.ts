@@ -33,6 +33,18 @@ const style = {
     fontFamily: type.base,
     ...size.huge,
   },
+  boldSmall: {
+    fontFamily: type.bold,
+    ...size.small,
+  },
+  boldRegural: {
+    fontFamily: type.bold,
+    ...size.regular,
+  },
+  boldHuge: {
+    fontFamily: type.bold,
+    ...size.huge,
+  },
 };
 
 export default {
