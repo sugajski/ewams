@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchHistory renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontFamily": "OpenSans",
+        "fontSize": 24,
+        "lineHeight": 40,
+      }
+    }
+  >
+    Ostatnio wyszukiwane:
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#444b59",
+            "fontFamily": "OpenSans",
+            "fontSize": 18,
+            "lineHeight": 24,
+          }
+        }
+      >
+        Warszawa
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#858896",
+            "fontFamily": "OpenSans",
+            "fontSize": 12,
+            "lineHeight": 16,
+          }
+        }
+      >
+        kilka sekund temu
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "height": 1,
+            "textShadowColor": "#00000066",
+            "textShadowOffset": Object {
+              "height": 1,
+              "width": -1,
+            },
+            "textShadowRadius": 6,
+            "width": "100%",
+          },
+          Object {
+            "backgroundColor": "#9a9eaf",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#444b59",
+            "fontFamily": "OpenSans",
+            "fontSize": 18,
+            "lineHeight": 24,
+          }
+        }
+      >
+        Kraków
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#858896",
+            "fontFamily": "OpenSans",
+            "fontSize": 12,
+            "lineHeight": 16,
+          }
+        }
+      >
+        9 lat temu
+      </Text>
+    </View>
+  </View>
+</View>
+`;

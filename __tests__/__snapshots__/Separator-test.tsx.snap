@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Separator renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 1,
+        "textShadowColor": "#00000066",
+        "textShadowOffset": Object {
+          "height": 1,
+          "width": -1,
+        },
+        "textShadowRadius": 6,
+        "width": "100%",
+      },
+      Object {
+        "backgroundColor": "#ffffff",
+      },
+    ]
+  }
+/>
+`;

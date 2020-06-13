@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OutlinedTextInput renders correctly. 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      pointerEvents="none"
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 6,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#9a9eaf",
+            "borderRadius": 4,
+            "borderWidth": 1,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "minHeight": 44,
+          "paddingBottom": 0,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        pointerEvents="none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          pointerEvents="none"
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "bottom": 0,
+              "height": 2,
+              "left": 10,
+              "opacity": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 6,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+              "width": 8,
+            }
+          }
+        />
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "color": "transparent",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": undefined,
+              "left": 18,
+              "opacity": 0,
+              "paddingHorizontal": 0,
+              "position": "absolute",
+              "textAlign": "left",
+              "top": 31,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 0,
+                },
+                Object {
+                  "scale": 1,
+                },
+                Object {
+                  "scaleY": 1,
+                },
+              ],
+              "writingDirection": "ltr",
+            }
+          }
+        >
+          Miasto
+        </Text>
+        <Text
+          numberOfLines={1}
+          onLayout={[Function]}
+          style={
+            Object {
+              "color": "#536dfe",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": undefined,
+              "left": 0,
+              "opacity": 0,
+              "paddingHorizontal": 14,
+              "position": "absolute",
+              "textAlign": "left",
+              "top": 30,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 0,
+                },
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "writingDirection": "ltr",
+            }
+          }
+        >
+          Miasto
+        </Text>
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#9a9eaf",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": undefined,
+              "left": 0,
+              "opacity": 1,
+              "paddingHorizontal": 14,
+              "position": "absolute",
+              "textAlign": "left",
+              "top": 30,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 0,
+                },
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "writingDirection": "ltr",
+            }
+          }
+        >
+          Miasto
+        </Text>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        editable={true}
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+        placeholderTextColor="#9a9eaf"
+        rejectResponderTermination={true}
+        selectionColor="#536dfe"
+        style={
+          Array [
+            Object {
+              "flexGrow": 1,
+              "margin": 0,
+              "paddingHorizontal": 14,
+              "textAlign": "left",
+              "zIndex": 1,
+            },
+            Object {
+              "height": 44,
+            },
+            Object {
+              "paddingBottom": 14,
+              "paddingTop": 14,
+            },
+            Object {
+              "color": "#283238",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": undefined,
+              "textAlignVertical": "center",
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+  </View>
+</View>
+`;

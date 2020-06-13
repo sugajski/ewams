@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SendButton renders correctly. 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "height": 47,
+        "justifyContent": "center",
+        "marginTop": 5,
+        "width": 58,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/images/send_ic.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 40,
+            "width": 40,
+          },
+          Object {
+            "tintColor": "#536dfe",
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
