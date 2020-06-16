@@ -80,7 +80,7 @@ const Dashboard = inject('weatherStore')(
       <ImageBackground
         source={Images.background}
         resizeMode="stretch"
-        style={[DashboardStyles.container]}>
+        style={DashboardStyles.container}>
         <ScrollView
           keyboardShouldPersistTaps="handled"
           showsVerticalScrollIndicator={false}>
